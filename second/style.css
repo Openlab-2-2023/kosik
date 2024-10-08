@@ -10,13 +10,13 @@ padding-bottom:20px;
 background-color:#ffffff;
 border: solid 2px #b0b0b0;
 font-size:12px;
-font-family:'calibri';
+
 
 }
 
 
 .img1 img {
-    border: 4px solid #d6d6d6;   
+    border: 4px solid #e61f1f;   
     border-radius: 16px;   
     width: 625px;
     height: 349px;
@@ -25,7 +25,7 @@ font-family:'calibri';
 }
 
 .img2 img {
-    border: 4px solid #d6d6d6;   
+    border: 4px solid #e61f1f;   
     border-radius: 16px;  
     width: 625px;
     height: 349px;
@@ -67,14 +67,14 @@ font-family:'calibri';
     width: 75px;
     height: 75px;
     float:right;
-    margin-right:55%;
+    margin-right:48%;
     margin-top: -3%;
    
    
 }
 .title2 {
     margin-top:-2%;
-    margin-right: 20%;
+    margin-right: 13%;
     float:right;
 
 }
@@ -92,7 +92,7 @@ font-family:'calibri';
     font-size: 15px;
     font-family:'arial';
     margin-top: -1%;
-    margin-right:37%;
+    margin-right:34%;
     float:right;
 
 }
