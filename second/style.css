@@ -1,29 +1,80 @@
 body {
-    background-color: rgb(22, 22, 22);
-    color: #fff;
+    background-color: rgb(255, 255, 255);
+    color: #ffffff;
     font-family: 'Arial', sans-serif;
+    padding-top:60px;
 }
 
-.recc {
-    height: 50px;
-    background-color: #e61f1f;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .search {
     display: flex;
-    margin-top: 30px;
+    
     flex-direction:row ;
+    
      justify-content: space-between;
+     background-color: #ffffff;
      gap:20px;
+     left:0;
+     right:0;
+     flex:1;
+    top:0;
+    position: fixed;
+}
+.search-bar {
+    flex: 1;
+    padding-left:10px;
+    height:35px;
+    border-style: solid;
+    border-color:#b0b0b0;
+    border-radius: 16px;
+    
 }
 
 .middle {
     height: auto;
     width: 100%;
+    flex: 1;
     border-radius: 8px;
+    max-width: 500px;
+    display:flex;
+    align-items: center;
+}
+.ytimg {
+    margin-top:20px;
+    margin-left:20px;
+}
+.search-button {
+    height: 40px;
+    width: 60px;
+    background-color: #fafafa;
+    border-width: 2px;
+    border-style: solid;
+    border-color:#b0b0b0 ;
+    margin-left: -15px;
+}
+.vs-button {
+    height: 40px;
+    width: 40px;
+    background-color: #fafafa;
+    border-width: 1px;
+    border-style: solid;
+    border-color:#e0e0e0 ;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+.search-image {
+    height: 30px;
+    width: 40px;
+    margin-top:3px
+
+}
+.vs-image {
+    padding-top: 1px;
+    padding-right: 5px;
+    height: 35px;
+    width: 45px;
+    margin-top:3px
+    
 }
 .grid1 {
     display: grid;
@@ -44,6 +95,7 @@ body {
     display: flex;
     align-items: center;
     margin-top: 8px; 
+    
 }
 
 .pfp {
@@ -57,10 +109,12 @@ body {
 .pfp img {
     width: 100%;
     height: auto;
+    margin-top:5px;
 }
 
 .text {
     flex-grow: 1; 
+    color:#000000;
 }
 
 .mainh, .sideh {
@@ -68,12 +122,12 @@ body {
 }
 
 .mainh {
-    color: hsl(0, 0%, 100%);
+    color: hsl(0, 0%, 0%);
     font-size: 16px;
     font-weight: bold;
 }
 
 .sideh {
-    color: #b0b0b0;
+    color: #292828;
     font-size: 14px; 
 }
